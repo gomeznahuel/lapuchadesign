@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>La Pucha Design</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Icons Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/34beaa5fa5.js" crossorigin="anonymous"></script>
+  <!-- Own CSS -->
+  <link rel="stylesheet" href="css/estilo.css" />
+  <!-- Logo Icon -->
+  <link rel="Icon" type="image/png" href="images/logo-negro.png">
+</head>
+<body>
+  <!-- WSP ICON -->
+  <div class="container-boton" data-aos="zoom-in">
+    <a href="https://api.whatsapp.com/send?phone=11%204253%202407&text=¡Hola!%20¿Cómo%20estás?%20¡Quisiera%20hacer%20un%20pedido!" class="btn-wsp" target="_blank">
+      <img src="images/whatsapp.png" class="boton" alt="botón de whatsApp">
+    </a>
+  </div>
+
+  <!-- NAV PRINCIPAL -->
+  <nav class="navbar navbar-expand-lg" id="indexNav">
+    <div class="container">
+      <a class="navbar-brand animate__animated animate__bounceInRight" href="index.html"><img src="images/logo.png" alt="Logo La Pucha Design"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars menuBurger"></i></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+        <ul class="navbar-nav animate__animated animate__jackInTheBox">
+          <li class="nav-item">
+            <a class="nav-link-main main1" aria-current="page" href="#about">La Pucha Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-main main2" href="#productos">Mis diseños</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-main main3" href="#conoceme">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link-main main4" href="#footer">Contactame</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Carousel -->
+    <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner-carousel001.png" alt="" class="gallery__img" />
+          <div class="carousel-caption d-md-block" id="carouselText">
+            <h5 class="main1">La Pucha Design</h5>
+            <p>¡Hola! Soy <strong>Mora</strong> y soy diseñadora en indumentaria.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-carousel002.png" alt="" class="gallery__img" />
+          <div class="carousel-caption d-md-block" id="carouselText">
+            <h5 class="main1">Prendas únicas</h5>
+            <p>Mi intención es que las personas se identifiquen con mis diseños.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/banner-carousel003.png" alt="" class="gallery__img" />
+          <div class="carousel-caption d-md-block" id="carouselText">
+            <h5 class="main1">Envíos a todo el país</h5>
+            <p>Mi ojetivo es poder hacer llegar a todos una parte de mí.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    
+    <!-- Products Section -->
+    
+    
+    <h3 class="main2" data-aos="zoom-in-up">Mis diseños</h3>
+    <section class="gallery-container" id="productos">
+      <!-- Separador -->
+      <div class="gallery__item" data-aos="fade-right" data-bs-toggle="modal" data-bs-target="#modalImage1">
+        <img src="images/batik1.jpg" alt="" class="gallery__img" />
+        <h2 class="gallery__title btn-abrir">Batik</h2>
+      </div>
+      <div class="gallery__item" data-aos="fade-down" data-bs-toggle="modal" data-bs-target="#modalImage2">
+        <img src="images/termoVinilo.jpeg" alt="" class="gallery__img" />
+        <h2 class="gallery__title btn-abrir">Termo vinilo</h2>
+      </div>
+      <div class="gallery__item" data-aos="fade-up" data-bs-toggle="modal" data-bs-target="#modalImage3">
+        <img src="images/personajes1.jpeg" alt="" class="gallery__img" />
+        <h2 class="gallery__title btn-abrir">Personajes</h2>
+      </div>
+      <div class="gallery__item" data-aos="fade-right" data-bs-toggle="modal" data-bs-target="#modalImage4">
+        <img src="images/basico1.jpg" alt="" class="gallery__img" />
+        <h2 class="gallery__title btn-abrir">Clásicos</h2>
+      </div>
+    </section>
+
+    <!-- Carousel Image BATIK -->
+    <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content w-150">
+              <!-- START -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/batik.jpeg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/batik1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/batik.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!-- END -->
+          </div>
+      </div>
+    </div>
+
+    <!-- Carousel Image TERMO VINILO -->
+    <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content w-150">
+              <!-- START -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/termoVinilo.jpeg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/termoVinilo1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/termoVinilo2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!-- END -->
+          </div>
+      </div>
+    </div>
+
+    <!-- Carousel Image PERSONAJES -->
+    <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content w-150">
+              <!-- START -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/personajes.jpeg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/personajes1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/personajes2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!-- END -->
+          </div>
+      </div>
+    </div>
+
+    <!-- Carousel Image CLÁSICOS -->
+    <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content w-150">
+              <!-- START -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/basico.jpeg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/basico1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/basico1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!-- END -->
+          </div>
+      </div>
+    </div>
+    
+    <!-- SECCION INSTAGRAM -->
+    <div class="instagram" data-mc-src="61b719e2-7d37-4a13-8a84-c46163e60813#instagram" data-aos="zoom-in-up"></div>
+        
+    <script 
+      src="https://cdn2.woxo.tech/a.js#613c19f7c9f77300167da161" 
+      async data-usrc>
+    </script>
+
+    <hr>
+
+    <!-- Description -->
+    <h3 id="conoceme" class="main3" data-aos="zoom-in-up">Acerca de mí</h3>
+    <section class="section__two text-center" id="about" data-aos="zoom-in">
+      <p data-aos="zoom-in-up">
+        <b>La Pucha Design</b> comenzó hace varios años con la intención de poder experimentar y plasmar todas las ideas que venían a mi mente. Mi misión siempre es compartir, crear tipologías cómodas de buena calidad y diseños únicos e irrepetibles.
+      </p>
+      <img src="images/personajes2.jpeg" alt="Foto de presentación" data-aos="zoom-in-up">
+      <p data-aos="zoom-in-up">
+        Me moviliza el arte sobre todas las cosas, los colores, las formas. Detrás de cada prenda hay una serie de desiciones técnicas, estéticas, creativas pero sobre todo, mucho amor.
+      </p>
+    </section>
+
+    <!-- VIDEO PRESENTACION -->
+    <pre>
+      <section class="videoPresentacion" data-aos="zoom-in-up">
+        <!-- <iframe width="800" height="400" src="https://www.youtube.com/embed/B5ElvV5cyFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe src="https://www.youtube.com/embed/B5ElvV5cyFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="gallery__video"><a href="#">¿Cómo es mi proceso de diseño?</a></h2>
+      </section>
+    </pre>
+
+    <!-- FEEDBACK -->
+    <section class="feedback">
+      <div class="feedback-contenedor">
+        <div class="feedback-box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="feedback__texto" data-aos-offset="800" data-aos-easing="ease-in-sine">
+              <img class="feedback__img" src="images/fback1.jpg">
+              <h5>Cecilia</h5>
+              <p>"Genial todo. Los diseños son super originales y la calidad impecable! Siempre vuelvo a comprar."</p>
+          </div>
+        
+        </div>
+        <div class="feedback-box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="feedback__texto" data-aos-offset="800" data-aos-easing="ease-in-sine">
+            <img class="feedback__img" src="images/fback2.jpg">
+            <h5>Pamela</h5>
+            <p>"La originalidad de los diseños y los modelos son todo, me encanta que sean únicos y originales."</p>
+          </div>
+        </div>
+        <div class="feedback-box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="feedback__texto" data-aos-offset="800" data-aos-easing="ease-in-sine">
+            <img class="feedback__img" src="images/fback3.jpg">
+            <h5>Vanina</h5>
+            <p>"Tanto diseño como calidad del buzo es excelente! Perdura el color y la forma despues de muchisimos lavados! Lo uso para salir, en casa o bien para dormir! Esta fue mi compra favorita!"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <hr class="hrPreFooter">
+  
+  <footer id="footer">
+    
+    <h3 class="main4" data-aos="zoom-in-up">Contactame</h3>
+    
+    <!-- link mapa location -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21660.566248657233!2d-58.264520722170715!3d-34.725771509541055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e38e45f5777%3A0x6a86dac21334524f!2sQuilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1632686575679!5m2!1ses!2sar" class="mapa" allowfullscreen="" loading="lazy"></iframe>
+
+    <!-- nav footer -->
+    
+    <nav class="navbarFooter" id="indexNav">
+
+      <a id="logoFooter" class="logoNav animate__animated animate__bounceInRight" href="index.html"><img src="images/logo-lapuchadesign.png" alt="Logo La Pucha Design"></a>
+      
+      <div class="fill-footer">
+        <p>¿Quisieras hacer un pedido? ¡Escribile a Mora!</p>
+        <!-- <p>¡Escribile a Mora!</p> -->
+        <p><a href="https://api.whatsapp.com/send?phone=1142532407&text=¡Hola!%20¿Cómo%20estás?%20¡Quisiera%20hacer%20un%20pedido!" class="wa" target="_blank">Tel: 11 6366 5198</a></p>
+      </div>
+     
+      <div class="container container-footer">
+        <ul class="footer__ul">
+          <li>
+            <a href="https://www.instagram.com/lapucha.design/" class="nav-link-footer" aria-current="page" href="#about">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lapucha.design/" class="nav-link-footer" href="#productos">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!-- Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- JS -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
