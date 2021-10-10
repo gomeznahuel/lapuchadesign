@@ -575,6 +575,54 @@ footer {
 // MEDIA QUERYS \\
 
 // Mobiles
+@media only screen and (max-width: 435px) {
+  #carouselText {
+    width: 70% !important;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    h3 {
+      padding-top: 5rem;
+    }
+    #indexNav {
+      padding: 0rem;
+    }
+
+    .navbarFooter {
+      flex-direction: column;
+      padding: 2rem !important;
+
+      .logoNav {
+        margin-bottom: 2rem;
+        text-align: center;
+
+        img {
+          max-width: 70%;
+          // margin-left: 4rem;
+          margin: 0 auto;
+        }
+      }
+      .fill-footer {
+        width: 100%;
+        padding-top: 2rem;
+        a {
+          margin: 0;
+        }
+
+        p {
+          line-height: 2rem;
+          padding: 0;
+        }
+
+        .nav-link-footer {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 601px) {
   //hamburguer menu
   .container-boton {
@@ -733,7 +781,6 @@ footer {
           max-width: 50%;
           // margin-left: 4rem;
           margin: 0 auto;
-
         }
       }
       .fill-footer {
@@ -892,6 +939,9 @@ footer {
       margin: 0 auto;
       padding: 2rem;
       text-align: center;
+      img {
+        max-width: 100% !important;
+      }
       a {
         width: 60%;
         margin-left: 1rem;
@@ -1147,7 +1197,7 @@ footer {
         }
       }
     }
-
+  }
     footer {
       width: 100%;
       .navbarFooter {
@@ -1158,7 +1208,7 @@ footer {
       }
     }
   }
-}
+
 
 // Min width 1200px
 @media only screen and (min-width: 1200px) {
@@ -1216,31 +1266,31 @@ footer {
       .feedback-contenedor {
         display: flex;
         flex-direction: row;
-      .feedback-box {
-        width: 30%;
-        &:before,
-        &:after {
-          display: none;
-        }
-        &:before {
-          //el horizontal
-          display: none;
-        }
-        &:after {
-          //el vertical
-          display: none;
-        }
-        &:hover {
+        .feedback-box {
+          width: 30%;
+          &:before,
           &:after {
             display: none;
           }
           &:before {
+            //el horizontal
             display: none;
+          }
+          &:after {
+            //el vertical
+            display: none;
+          }
+          &:hover {
+            &:after {
+              display: none;
+            }
+            &:before {
+              display: none;
+            }
           }
         }
       }
     }
-  }
     // Productos => Galería
     .gallery-container {
       width: 90%;
@@ -1311,15 +1361,29 @@ footer {
       justify-items: center;
     }
   }
+  .hrPreFooter {
+    margin-top: 5rem;
+  }
 
-  footer {
+  #footer {
+    width: 100%;
     .navbarFooter {
+      width: 100%;
+      display: flex;
       flex-direction: row;
-
+      justify-content: space-between;
+      align-items: center;
+      .logoNav {
+        width: 30%;
+      }
       .fill-footer {
-        a {
-          margin: 0;
+        width: 30%;
+        p {
+          line-height: 2rem;
         }
+      }
+      .container-footer {
+        width: 30%;
       }
     }
   }
@@ -1376,6 +1440,9 @@ footer {
       span {
         font-weight: 700;
       }
+    }
+    .main2 {
+      margin: 7rem 0;
     }
 
     //acerca de mora

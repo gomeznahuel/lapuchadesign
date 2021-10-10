@@ -402,6 +402,36 @@ footer .navbarFooter {
       font-weight: bold;
       color: #8bbd6a; }
 
+@media only screen and (max-width: 435px) {
+  #carouselText {
+    width: 70% !important; }
+  footer {
+    width: 100%;
+    height: auto; }
+    footer h3 {
+      padding-top: 5rem; }
+    footer #indexNav {
+      padding: 0rem; }
+    footer .navbarFooter {
+      flex-direction: column;
+      padding: 2rem !important; }
+      footer .navbarFooter .logoNav {
+        margin-bottom: 2rem;
+        text-align: center; }
+        footer .navbarFooter .logoNav img {
+          max-width: 70%;
+          margin: 0 auto; }
+      footer .navbarFooter .fill-footer {
+        width: 100%;
+        padding-top: 2rem; }
+        footer .navbarFooter .fill-footer a {
+          margin: 0; }
+        footer .navbarFooter .fill-footer p {
+          line-height: 2rem;
+          padding: 0; }
+        footer .navbarFooter .fill-footer .nav-link-footer {
+          padding: 0; } }
+
 @media only screen and (max-width: 601px) {
   .container-boton {
     display: none; }
@@ -581,6 +611,8 @@ footer .navbarFooter {
       margin: 0 auto;
       padding: 2rem;
       text-align: center; }
+      footer .navbarFooter img {
+        max-width: 100% !important; }
       footer .navbarFooter a {
         width: 60%;
         margin-left: 1rem; }
@@ -733,9 +765,9 @@ footer .navbarFooter {
         display: none; }
       main .feedback-contenedor .feedback-box:hover:before {
         display: none; }
-  main footer {
+  footer {
     width: 100%; }
-    main footer .navbarFooter {
+    footer .navbarFooter {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -843,10 +875,24 @@ footer .navbarFooter {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center; }
-  footer .navbarFooter {
-    flex-direction: row; }
-    footer .navbarFooter .fill-footer a {
-      margin: 0; } }
+  .hrPreFooter {
+    margin-top: 5rem; }
+  #footer {
+    width: 100%; }
+    #footer .navbarFooter {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #footer .navbarFooter .logoNav {
+        width: 30%; }
+      #footer .navbarFooter .fill-footer {
+        width: 30%; }
+        #footer .navbarFooter .fill-footer p {
+          line-height: 2rem; }
+      #footer .navbarFooter .container-footer {
+        width: 30%; } }
 
 @media only screen and (min-width: 1400px) {
   .container-boton {
@@ -881,6 +927,8 @@ footer .navbarFooter {
       font-weight: 700; }
     main #carouselText span {
       font-weight: 700; }
+  main .main2 {
+    margin: 7rem 0; }
   main .section__two {
     display: grid;
     grid-template-columns: 1fr;
