@@ -497,8 +497,7 @@ footer .navbarFooter {
     padding: 3rem 1rem !important; }
     pre .videoPresentacion {
       width: 100%;
-      height: 20rem;
-      padding: 0 2rem !important; }
+      height: 20rem; }
       pre .videoPresentacion h2 {
         padding: 1rem;
         font-size: 1.2rem; }
@@ -599,8 +598,10 @@ footer .navbarFooter {
           display: none; }
         .feedback .feedback-contenedor .feedback-box .feedback-box:hover:before {
           display: none; }
-      .feedback .feedback-contenedor pre .videoPresentacion h2 {
-        padding: 1.5rem; }
+      .feedback .feedback-contenedor pre .videoPresentacion {
+        padding: 2rem 0 !important; }
+        .feedback .feedback-contenedor pre .videoPresentacion h2 {
+          padding: 1.5rem; }
   .hrPreFooter {
     margin-bottom: 5rem; }
   footer {
