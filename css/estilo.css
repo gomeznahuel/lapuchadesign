@@ -146,7 +146,7 @@ hr {
 
 #carouselText {
   background-color: #ffffff;
-  color: #0f0f0f;
+  color: palevioletred;
   opacity: 0.9;
   width: 25%;
   margin: 0 auto;
@@ -160,6 +160,10 @@ hr {
   #carouselText p {
     color: #0f0f0f;
     font-family: "Inter", sans-serif; }
+  #carouselText strong {
+    color: palevioletred; }
+  #carouselText .main1 {
+    color: palevioletred; }
 
 .section__two p {
   font-size: 1.2rem;
@@ -919,7 +923,7 @@ footer .navbarFooter {
     margin: 10rem auto 0 auto; }
   main #carouselText {
     background-color: #ffffff;
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
     padding: 2rem;
     bottom: 4rem; }

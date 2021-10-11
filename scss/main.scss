@@ -51,6 +51,7 @@ $pSecundary: "Inter", sans-serif;
   }
 }
 
+
 // Header
 .navbar {
   position: sticky;
@@ -227,7 +228,7 @@ hr {
 // Texto dentro del Carousel
 #carouselText {
   background-color: #ffffff;
-  color: #0f0f0f;
+  color: palevioletred;
   opacity: 0.9;
   width: 25%;
   margin: 0 auto;
@@ -243,6 +244,12 @@ hr {
   p {
     color: #0f0f0f;
     font-family: $pSecundary;
+  }
+  strong {
+    color: palevioletred;
+  }
+  .main1 {
+    color: palevioletred;
   }
 }
 
@@ -1430,7 +1437,7 @@ footer {
     // Texto dentro del Carousel
     #carouselText {
       background-color: #ffffff;
-      width: 30%;
+      width: 20%;
       margin: 0 auto;
       padding: 2rem;
       bottom: 4rem;
