@@ -599,10 +599,8 @@ footer .navbarFooter {
           display: none; }
         .feedback .feedback-contenedor .feedback-box .feedback-box:hover:before {
           display: none; }
-      .feedback .feedback-contenedor pre .videoPresentacion {
-        padding: 2rem 0 !important; }
-        .feedback .feedback-contenedor pre .videoPresentacion h2 {
-          padding: 1.5rem; }
+      .feedback .feedback-contenedor pre .videoPresentacion h2 {
+        padding: 1.5rem; }
   .hrPreFooter {
     margin-bottom: 5rem; }
   footer {
