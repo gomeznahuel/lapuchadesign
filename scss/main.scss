@@ -819,9 +819,9 @@ footer {
 @media only screen and (min-width: 602px) {
   // Texto dentro del Carousel
 
-  .container-boton {
-    display: none;
-  }
+  // .container-boton {
+  //   display: none;
+  // }
 
   .navbar-collapse {
     background-color: white;
@@ -1131,7 +1131,7 @@ footer {
       width: 45%;
       margin: 0 auto;
       padding: 2rem;
-      bottom: 12rem;
+      bottom: 8rem;
       h5 {
         font-weight: 700;
       }
@@ -1215,7 +1215,6 @@ footer {
     }
   }
 
-
 // Min width 1200px
 @media only screen and (min-width: 1200px) {
   //btn whatsapp
@@ -1253,7 +1252,7 @@ footer {
       background-color: #ffffff !important;
       margin: 0 auto;
       padding: 2rem !important;
-      bottom: 10.5rem !important;
+      bottom: 9rem !important;
       h5 {
         font-weight: 700;
       }
@@ -1439,7 +1438,7 @@ footer {
       width: 20%;
       margin: 0 auto;
       padding: 2rem;
-      bottom: 4rem;
+      bottom: 8rem !important;
       h5 {
         font-weight: 700;
       }
