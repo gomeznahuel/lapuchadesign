@@ -438,7 +438,10 @@ footer .navbarFooter {
 
 @media only screen and (max-width: 601px) {
   .container-boton {
-    display: none; }
+    z-index: 9999;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; }
   .navbar-collapse {
     background-color: white; }
   .navbar-nav {
@@ -538,9 +541,7 @@ footer .navbarFooter {
           line-height: 2rem;
           padding: 0 3rem; }
         footer .navbarFooter .fill-footer .nav-link-footer {
-          padding: 0; }
-      footer .navbarFooter .container .footer__ul {
-        margin-left: 4rem; } }
+          padding: 0; } }
 
 @media only screen and (min-width: 602px) {
   .navbar-collapse {
@@ -677,10 +678,10 @@ footer .navbarFooter {
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 1rem;
       text-align: center; }
       footer .navbarFooter a {
-        width: 60%;
+        width: 40%;
         margin-left: 1rem; }
       footer .navbarFooter .fill-footer {
         width: 100%;
@@ -691,11 +692,11 @@ footer .navbarFooter {
         width: 100%; }
         footer .navbarFooter .container-footer .footer__ul {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
           text-align: center;
-          width: 100%; }
+          width: 40%; }
           footer .navbarFooter .container-footer .footer__ul li {
             width: 100%; }
             footer .navbarFooter .container-footer .footer__ul li .nav-link-footer {
@@ -893,7 +894,10 @@ footer .navbarFooter {
         #footer .navbarFooter .fill-footer p {
           line-height: 2rem; }
       #footer .navbarFooter .container-footer {
-        width: 30%; } }
+        width: 30%; }
+        #footer .navbarFooter .container-footer .footer__ul {
+          display: flex;
+          flex-direction: column; } }
 
 @media only screen and (min-width: 1400px) {
   .container-boton {
@@ -934,6 +938,8 @@ footer .navbarFooter {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center; }
+    main .section__two p {
+      width: 65%; }
   main .feedback .feedback-contenedor {
     width: 90%;
     margin: 0 auto;
@@ -1027,7 +1033,7 @@ footer .navbarFooter {
     footer .navbarFooter {
       flex-direction: row; }
       footer .navbarFooter a {
-        width: 100%; }
+        width: 20% !important; }
       footer .navbarFooter .fill-footer a {
         margin: 0; }
       footer .navbarFooter .container .nav-link-footer {

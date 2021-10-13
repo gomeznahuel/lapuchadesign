@@ -633,7 +633,10 @@ footer {
 @media only screen and (max-width: 601px) {
   //hamburguer menu
   .container-boton {
-    display: none;
+    z-index: 9999;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
   }
   .navbar-collapse {
     background-color: white;
@@ -804,11 +807,6 @@ footer {
 
         .nav-link-footer {
           padding: 0;
-        }
-      }
-      .container {
-        .footer__ul {
-          margin-left: 4rem;
         }
       }
     }
@@ -1053,10 +1051,10 @@ footer {
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 1rem;
       text-align: center;
       a {
-        width: 60%;
+        width: 40%;
         margin-left: 1rem;
       }
       .fill-footer {
@@ -1071,11 +1069,11 @@ footer {
         width: 100%;
         .footer__ul {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
           text-align: center;
-          width: 100%;
+          width: 40%;
           li {
             width: 100%;
 
@@ -1389,6 +1387,10 @@ footer {
       }
       .container-footer {
         width: 30%;
+        .footer__ul {
+          display: flex;
+          flex-direction: column;
+        }
       }
     }
   }
@@ -1455,6 +1457,9 @@ footer {
       display: grid;
       grid-template-columns: 1fr;
       justify-items: center;
+      p {
+        width: 65%;
+      }
     }
 
     //feedback
@@ -1593,7 +1598,7 @@ footer {
       flex-direction: row;
 
       a {
-        width: 100%;
+        width: 20% !important;
         // margin-left: 6rem;
       }
       .fill-footer {
